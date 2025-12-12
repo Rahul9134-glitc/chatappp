@@ -4,11 +4,10 @@
   "main": "index.js",
   "type": "module",
  "scripts": {
-    "dev": "nodemon Backend/index.js",
-    "start": "node --require dotenv/config Backend/index.js",
-    "build": "npm install --prefix Frontend && npm run build --prefix Frontend", 
-    "postinstall": "npm run build"
-  },
+  "dev": "nodemon Backend/index.js",
+  "start": "node --require dotenv/config Backend/index.js",
+  "build": "npm install --prefix Frontend && npm run build --prefix Frontend"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
