@@ -1,4 +1,5 @@
-import 'dotenv/config';
+import dotenv from 'dotenv'
+dotenv.config();
 import connectMongo from "./db/db.js";
 import AuthRouter from "./routes/auth.routes.js";
 import MessageRouter from "./routes/message.routes.js";
