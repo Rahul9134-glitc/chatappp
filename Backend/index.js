@@ -17,7 +17,7 @@ const __dirname = path.resolve()
 connectMongo();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chatapp-8eh1.onrender.com",
     credentials: true,
   })
 );
