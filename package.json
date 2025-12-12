@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
+ "scripts": {
     "dev": "nodemon Backend/index.js",
-    "start": "node Backend/index.js",
-    "postinstall": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend" 
+    "start": "node --require dotenv/config Backend/index.js",
+    "build": "npm install --prefix Frontend && npm run build --prefix Frontend", 
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
