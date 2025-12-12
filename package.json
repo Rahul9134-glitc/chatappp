@@ -2,7 +2,7 @@
   "name": "chatapp-main",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install --prefix Frontend && npm run build --prefix Frontend",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
     "start": "cd backend && npm start"
   }
 }
